@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+body{
+        background: lightgray;
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+#container{
+        /*width: 70%;*/
+        width: 1500px;
+        border: 1px solid black;
+        }
+    
+header{
+     background: green;
+     height: 30px;
+     width: 100%;
+     margin: 0px;
+     text-align: center;
+     line-height: 30px;
+     color: black;
+     border-bottom: 3px dashed black;
+     }
+
+nav{
+  background: lightblue;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+
+nav ul li{
+     float: left;
+     lis-style: none;
+     margin: 10px;
+     line-height: 30px;
+    }
+
+.clearfix{
+      clear:both;
+}
+
+#content{
+  float: middle;
+  width: calc( 80% -1px);
+  min-height: 500px;
+  background: red;
+  padding: 40px;
+}
+
+footer {
+   background-image: url('https://img.freepik.com/foto-gratis/comida-mexicana-en-el-lado-derecho-de-la-mesa_23-2147740725.jpg? size=664&ext=jpg');
+   background-size: cover;
+   background-position: center;
+   height: 200px;
+   display: flex;
+   flex-direction: left;
+   padding: 20px;
+ }
+
+logo {
+   margin-bottom: auto;
+}
+
+.logo img {
+   width: 50px;
+   height: 50px;
+}
+
+.info {
+   margin-top: auto;
+   text-align: left;
+}
+
+.info p {
+   font-family: 'libre caslon text' serif;
+   color: #DBA860;
+   font-size: 18px;
+   margin-bottom: 10px;
+   text-shadow: 1px 1px 2px #000;
+}
+ 
